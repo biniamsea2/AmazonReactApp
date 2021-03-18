@@ -28,7 +28,7 @@ function Header() {
         {/* first link */}
         <Link to="/login" className="header_link">
       <div className="header_option">
-        <span>Hello</span>
+        <span>Hello,</span>
         <span>Sign In</span>
         </div>
         </Link>
