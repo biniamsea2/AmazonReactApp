@@ -21,7 +21,7 @@ function Product({ id, title, image, price, rating }) {
       </div>
 
       <img
-        src="https://images-na.ssl-images-amazon.com/images/I/71LcWGQcHbL._AC_SX679_.jpg"
+        src={image}
         alt="product img"
       />
       <button>Add to basket</button>
