@@ -25,19 +25,21 @@ function Header() {
 
       {/* 2 links to the right of the search bar */}
       <div className="header_nav">
+
         {/* first link */}
         <Link to="/login" className="header_link">
       <div className="header_option">
-        <span>Hello,</span>
-        <span>Sign In</span>
+        <span className="header_optionLineOne">Hello, Sign In</span>
+        <span className="header_optionLineTwo">Account</span>
         </div>
         </Link>
-        {/* second link */}
 
+
+        {/* second link */}
         <Link to="/login" className="header_link">
       <div className="header_option">
-        <span>Returns</span>
-        <span>& Orders</span>
+        <span className="header_optionLineOne">Returns</span>
+        <span className="header_optionLineTwo">& Orders</span>
         </div>
         </Link>
 
