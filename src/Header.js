@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import SearchIcon from "@material-ui/icons/Search";
 
 function Header() {
   return (
     <nav className="header">
-        {/* Link gives us the clickable image (the hand) when we hover over the image and "to" send us to a different route */}
+      {/* Link gives us the clickable image (the hand) when we hover over the image and "to" send us to a different route */}
       <Link to="/login">
         {/* logo on the left => img */}
         <img
@@ -16,7 +17,10 @@ function Header() {
       </Link>
 
       {/* search box */}
-
+      <div className="header_search">
+        <input type="text" className="header_searchInput" />
+        <SearchIcon className="header_searchIcon" />
+      </div>
       {/* 3 links to the right of the search bar */}
 
       {/* basket item with number */}

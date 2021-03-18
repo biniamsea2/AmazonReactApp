@@ -1,9 +1,26 @@
 .header{
     background-color:#131921;
+    /* moves search bar to be to the right of the amazon logo */
+    display: flex;
+    /* brings search bar to the center */
+    align-items: center;
 }
 .header_logo{
     width: 100px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 18px;
+}
+
+.header_searchIcon{
+    background-color: orange;
+}
+.header_search{
+    display: flex;
+}
+
+/* padding allows the text in the search bar to be in the center */
+.header_searchInput{
+    padding: 10px;
+    height: 12px;
 }
