@@ -5,8 +5,8 @@ import "./Header.css";
 function Header() {
   return (
     <nav className="header">
-        {/* Link gives us the clickable image (the hand) when we hover over the image */}
-      <Link>
+        {/* Link gives us the clickable image (the hand) when we hover over the image and "to" send us to a different route */}
+      <Link to="/login">
         {/* logo on the left => img */}
         <img
           className="header_logo"
