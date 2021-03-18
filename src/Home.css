@@ -3,3 +3,10 @@
     /* this line allows us to shade in the banner from bottom to top or vice versa */
     /* mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)); */
 }
+.home{
+    /* stays at the appropriate screen size */
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
