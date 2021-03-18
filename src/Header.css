@@ -30,6 +30,14 @@
     font-size: 13px;
     font-weight: 800;
 }
+.header_optionBasket{
+    display: flex;
+    align-items: center;
+}
+.header_optionBasketCount{
+    /* margin-left: 10px; */
+    margin-right: 10px;
+}
 .header_link{
     color: white;
     /* removes underline b/c its a link */
