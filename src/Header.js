@@ -21,7 +21,28 @@ function Header() {
         <input type="text" className="header_searchInput" />
         <SearchIcon className="header_searchIcon" />
       </div>
-      {/* 3 links to the right of the search bar */}
+
+
+      {/* 2 links to the right of the search bar */}
+      <div className="header_nav">
+        {/* first link */}
+        <Link to="/login" className="header_link">
+      <div className="header_option">
+        <span>Hello</span>
+        <span>Sign In</span>
+        </div>
+        </Link>
+        {/* second link */}
+
+        <Link to="/login" className="header_link">
+      <div className="header_option">
+        <span>Returns</span>
+        <span>& Orders</span>
+        </div>
+        </Link>
+
+
+      </div>
 
       {/* basket item with number */}
     </nav>
