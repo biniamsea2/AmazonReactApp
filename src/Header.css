@@ -7,6 +7,8 @@
 }
 .header_logo{
     width: 100px;
+    /* if the screen size changes, keep the logo the same/ proportional */
+    object-fit: contain;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 18px;
