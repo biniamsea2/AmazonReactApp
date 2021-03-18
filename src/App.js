@@ -1,22 +1,25 @@
 import React from "react";
 import "./App.css";
+import Header from './Header';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
 function App() {
   return (
-    // put everything in the router
+    // all routes under Router 
     <Router>
       <div className="App">
         <Switch>
           <Route path="/checkout">
             <h1>Checkout route</h1>
           </Route>
-          <Router path="/login">
+          <Route path="/login">
             <h1>Login page</h1>
-          </Router>
+          </Route>
           {/* last route is always the default route */}
           <Route path="/">
+            {/* added the header component */}
+            <Header/>
             <h1>Home page</h1>
           </Route>
         </Switch>
