@@ -11,16 +11,22 @@
     margin-right: 20px;
     margin-top: 18px;
 }
-
-.header_searchIcon{
-    background-color: orange;
-}
 .header_search{
     display: flex;
+    flex: 1;
 }
 
 /* padding allows the text in the search bar to be in the center */
 .header_searchInput{
-    padding: 10px;
     height: 12px;
+    padding: 10px;
+    border:none;
+    width: 100%;
 }
+.header_searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: orange;
+}
+
+
