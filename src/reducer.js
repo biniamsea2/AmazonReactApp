@@ -1,19 +1,20 @@
 export const initialState = {
-  basket: ["bread","butter"],
+  basket: [],
 };
 
 //anything inside the data layer is known as state, we manipulate the data layer with action (add to basket, remove from basket).
-function reducer(state, action) {
+const reducer = (state, action) => {
+  console.log(action);
   switch (action.type) {
     case "ADD_TO_BASKET":
       //logic for adding item to basket
-      break;
+      return { state };
     case "REMOVE_FROM_BASKET":
       //logic for removing item from basket
-      break;
+      return { state };
     default:
       return state;
   }
-}
+};
 
 export default reducer;
