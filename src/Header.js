@@ -3,8 +3,13 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingCart from "@material-ui/icons/ShoppingCart";
+import { useStateValue } from "./StateProvider";
 
 function Header() {
+  const [{ basket }] = useStateValue();
+
+
+
   return (
     <nav className="header">
       {/* Link gives us the clickable image (the hand) when we hover over the image and "to" send us to a different route */}
@@ -53,7 +58,7 @@ function Header() {
               {/* {/* basket icon */}
                 <ShoppingCart/>
             {/* number of items in basket */} 
-            <span className="header_optionLineTwo header_optionBasketCount">0</span>
+            <span className="header_optionLineTwo header_optionBasketCount">{basket.length}</span>
           </div>
       </Link>
     </nav>
