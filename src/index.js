@@ -9,7 +9,7 @@ import reducer, { initialState } from "./reducer";
 ReactDOM.render(
   <React.StrictMode>
     {/* wrapping our app with a data layer, so that our entire app has access to it */}
-    <StateProvider initialState = {initialState} reducer= {reducer}>
+    <StateProvider initialState = {initialState} reducer = {reducer}>
       {/* here is the entire app */}
       <App />
     </StateProvider>
