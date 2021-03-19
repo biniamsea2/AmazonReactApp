@@ -7,7 +7,7 @@ function Home() {
     <div className="home">
       <img
         className="home_image"
-        src="https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/Nzg3NzIxZDct/Nzg3NzIxZDct-YmQ1NDM5ZDgt-w3000._CB412095396_.jpg"
+        src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonMusic/2021/Marketing/EvergreenQ1/Gateway/US-EN_AMF_EvergreenQ1_DMUX-3799_JZ_OnS_GW_Hero_D_3000x1200_2X_CV4._CB411870756_.jpg"
         alt="amazon home banner"
       />
 
@@ -16,10 +16,10 @@ function Home() {
       <div className="home_row">
         <Product
           id="12345"
-          title="Everstone TV Wall Mount Bracket Fits Most 28'-60' TVs Tilting Swivel Extension Full Motion Arm Up to 80 lbs,VESA 400mm"
-          price={19.52}
-          rating={3}
-          image="https://images-na.ssl-images-amazon.com/images/I/71LcWGQcHbL._AC_SX679_.jpg"
+          title="Xbox Series X"
+          price={699.99}
+          rating={5}
+          image="https://compass-ssl.xbox.com/assets/f0/85/f085c120-d3d5-4424-8b70-eb25deaa326e.png?n=XBX_A-BuyBoxBGImage01-D.png"
         />
         <Product
           id="67890"
@@ -32,10 +32,10 @@ function Home() {
       <div className="home_row">
         <Product
           id="78901"
-          title="Nespresso Capsules VertuoLine, Melozio, Medium Roast Coffee, 30 Count Coffee Pods, Brews 7.8oz"
-          price={33.00}
+          title="Windowsill Herb Planter Box, Set of 3, Rectangular Self Watering Indoor Garden for Kitchens, Grow Plants, Flowers or Succulents, Large Water Reservoir"
+          price={28.99}
           rating={4}
-          image="https://images-na.ssl-images-amazon.com/images/I/71Oow9iowOL._SX679_.jpg"
+          image="https://images-na.ssl-images-amazon.com/images/I/81ZlJhcXlVL._AC_SX679_.jpg"
         />
         <Product
           id="89012"
@@ -52,6 +52,15 @@ function Home() {
           image="https://images-na.ssl-images-amazon.com/images/I/61LrV6Id5gL._SX522_.jpg"
         />
       </div>
+      <div className="home_row">
+        <Product
+          id="890123"
+          title="TCL 50-inch Class 4-Series 4K UHD Smart Roku LED TV - 50S435, 2021 Model"
+          price={299.99}
+          rating={4}
+          image="https://images-na.ssl-images-amazon.com/images/I/714hn7q7WxL._AC_SX679_.jpg"
+        />
+    </div>
     </div>
   );
 }
