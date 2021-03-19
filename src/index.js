@@ -4,12 +4,12 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { StateProvider } from "./StateProvider";
-import { initialState } from "./reducer";
+import reducer, { initialState } from "./reducer";
 
 ReactDOM.render(
   <React.StrictMode>
     {/* wrapping our app with a data layer, so that our entire app has access to it */}
-    <StateProvider initialState = {initialState} reducer={}>
+    <StateProvider initialState = {initialState} reducer= {reducer}>
       {/* here is the entire app */}
       <App />
     </StateProvider>
