@@ -1,5 +1,11 @@
 export const initialState = {
-  basket: [],
+  basket: [{
+    id: "49823",
+    title:"Testing test",
+    price:5.99,
+    rating:5,
+    image:"https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+  }],
   user: null,
 };
 
