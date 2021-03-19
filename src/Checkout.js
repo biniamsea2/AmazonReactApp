@@ -8,7 +8,20 @@ function Checkout() {
         <div className="checkout">
             <img className="checkout_ad" src="https://images-na.ssl-images-amazon.com/images/G/01/credit/img16/CCMP/newstorefront/YACC-desktop-nonprime-banner3.png" alt="ad"/>
             {/* https://images-na.ssl-images-amazon.com/images/G/01/credit/img18/CBCC/wfm/landing-hero-prime-overlap2.jpg */}
+       {basket?.length === 0 ? (
+           <div>
+           <h2>Your Shopping Basket is Empty</h2>
+           <p>
+               You have no items in your basket. To buy one or more items, click "Add to basket"
+               underneath the item.
+           </p>
+           </div>
+       ) : (
+           <div>
+               <h2>Your Shopping Basket</h2>
+           </div>
+       )}
         </div>
-    )
+    );
 }
 export default Checkout
