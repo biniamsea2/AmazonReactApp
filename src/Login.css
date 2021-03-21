@@ -1,0 +1,17 @@
+.login{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+}
+
+
+.login_logo{
+    width:100px;
+    /* keep aspect ratio */
+    object-fit: contain;
+}
+
+.policy{
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
