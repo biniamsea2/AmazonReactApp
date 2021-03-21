@@ -19,8 +19,8 @@ function Login() {
           <input type="text" />
           <h5>Password</h5>
           <input type="text" />
-          <button>Continue</button>
-        <p className="policy">By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.</p>
+          <button className="login_signInButton">Continue</button>
+        <p>By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.</p>
         </form>
       </div>
 
