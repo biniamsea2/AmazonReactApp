@@ -19,13 +19,14 @@ const reducer = (state, action) => {
         //after you dispatch an action you have to return the update
         ...state,
         //return the state but change the basket
-        basket: [...state.basket, action.item]
+        basket: [...state.basket, action.item],
        };
     case "REMOVE_FROM_BASKET":
       //logic for removing item from basket
       //copy the old basket into a new basket
       let newBasket = [...state.basket];
 
+       // store the index of the item in a variable
       const index = state.basket.findIndex((basketItem) => basketItem.id === action.id);
 
       if(index >= 0){

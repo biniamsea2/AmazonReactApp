@@ -13,7 +13,7 @@ function CheckoutProduct({ id, title, image, price, rating }) {
       type:"Remove_From_Basket",
       //passing an id
       id: id,
-    })
+    });
   };
   return (
     <div className="checkoutProduct">
