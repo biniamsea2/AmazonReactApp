@@ -1,6 +1,8 @@
 .checkoutProduct{
     /* everything going into a row with flex */
     display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .checkoutProduct_image{
     object-fit: contain;
