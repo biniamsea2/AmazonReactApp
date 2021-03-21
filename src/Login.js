@@ -20,12 +20,11 @@ function Login() {
           <h5>Password</h5>
           <input type="text" />
           <button className="login_signInButton">Continue</button>
-        <p>By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.</p>
+        <p>By continuing, you agree to Amazon's <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=508088">Conditions of Use </a> and <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=468496">Privacy Notice</a>.</p>
         </form>
       </div>
-
       <p>New to Amazon?</p>
-      <button>Create your Amazon account</button>
+      <button className="login_registerButton">Create your Amazon account</button>
 
     </div>
   );
