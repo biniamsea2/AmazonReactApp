@@ -13,8 +13,24 @@
     padding: 20px;
     border:1px solid lightgray;
 }
+.login_container > h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.login_container > form > h5{
+    margin-bottom: 5px;
+}
+.login_container > form > input{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width:98%;
+}
 
-
+.login_container > p{
+    margin-top: 15px;
+    font-size: 12px;
+}
 .login_logo{
     width:100px;
     /* keep aspect ratio */
