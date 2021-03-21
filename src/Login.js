@@ -1,8 +1,31 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Login.css";
 import { Link, useHistory } from "react-router-dom";
+import{auth} from "./Firebase";
 
 function Login() {
+    // checking email 
+    const[email, setEmail] = useState('');
+    const[password, setPassword] = useState('');
+
+
+
+    const login = event =>{
+        //stops refresh
+        event.preventDefault()
+        //login logic
+        auth.signInWithEmailAndPassword(email, password)
+    }
+
+    const register = event =>{
+        //stops refresh
+        event.preventDefault()
+        //register logic
+    }
+
+
+
+
   return (
     <div className="login">
       <Link to="/">
@@ -16,15 +39,15 @@ function Login() {
         <h1>Sign In</h1>
         <form>
           <h5>E-mail</h5>
-          <input type="text" />
+          <input value = {email} type="email" />
           <h5>Password</h5>
-          <input type="text" />
-          <button className="login_signInButton">Continue</button>
+          <input value = {password} type="password" />
+          <button onClick={login} type ="submit"className="login_signInButton">Continue</button>
         <p>By continuing, you agree to Amazon's <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=508088">Conditions of Use </a> and <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=468496">Privacy Notice</a>.</p>
         </form>
+      <p className="newToAmazon">New to Amazon?</p>
+      <button onClick={register} className="login_registerButton">Create your Amazon account</button>
       </div>
-      <p>New to Amazon?</p>
-      <button className="login_registerButton">Create your Amazon account</button>
 
     </div>
   );
