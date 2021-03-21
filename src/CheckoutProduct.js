@@ -10,7 +10,8 @@ function CheckoutProduct({ id, title, image, price, rating }) {
   const removeFromBasket = () => {
     //remove from item basket
     dispatch({
-      type:"Remove_From_Basket",
+      //type needs to written the same exact way from our reducer
+      type:"REMOVE_FROM_BASKET",
       //passing an id
       id: id,
     });
