@@ -16,7 +16,7 @@ function Login() {
         auth.signInWithEmailAndPassword(email, password)
         .then((auth) => {
             //logged in, redirect to homepage
-            history.push('/');
+            history.push("/");
         })
         .catch(e => alert(e.message));
     };
