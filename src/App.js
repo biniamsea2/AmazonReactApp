@@ -1,4 +1,4 @@
-import React, { useEffect} from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Header from './Header';
 import Home from './Home';
@@ -10,7 +10,7 @@ import {auth} from "./Firebase";
 
 function App() { 
   //used for the listener
-  const[{ basket }, dispatch] = useStateValue();
+  const[{ user }, dispatch] = useStateValue();
   
   // code which runs on a given condition......useEffect
   useEffect(() => {
@@ -40,7 +40,7 @@ function App() {
   }, []);
 
 
-
+console.log("user is ===>>>", user);
   
   return (
     // all routes under Router 
