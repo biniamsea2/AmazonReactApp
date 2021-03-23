@@ -19,3 +19,9 @@
     margin-right: 5px; 
 }
 
+
+.home_row > image{
+    max-width: 100%;
+    height: auto;
+}
+
