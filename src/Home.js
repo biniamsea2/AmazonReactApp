@@ -21,6 +21,12 @@ function Home() {
           rating={4}
           image="https://compass-ssl.xbox.com/assets/f0/85/f085c120-d3d5-4424-8b70-eb25deaa326e.png?n=XBX_A-BuyBoxBGImage01-D.png"
         />
+
+
+
+
+
+        
         <Product
           id="67890"
           title="Black Disposable Face Mask"
