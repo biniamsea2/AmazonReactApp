@@ -1,7 +1,16 @@
-Nav.Link{
-    color:red;
+.bg-dark{
+    /* height: 10vh; */
+    /* color:white; */
 }
 
-.navBar{
-    background-color: rgb(42, 52, 65);
+.ArrowForwardIos{
+    margin-left: 10px;
 }
+
+
+
+#basic-nav-dropdown{
+color:white;
+margin-right: 15px;
+}
+
