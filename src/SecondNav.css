@@ -1,5 +1,7 @@
-.nav-item{
-    display: flex;
-    flex-direction: row;
-    color:white;
+Nav.Link{
+    color:red;
+}
+
+.navBar{
+    background-color: rgb(42, 52, 65);
 }
