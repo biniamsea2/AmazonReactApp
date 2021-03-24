@@ -1,5 +1,6 @@
 import React from "react";
 import Product from "./Product";
+import SecondNav from "./SecondNav";
 import "./Home.css";
 import CarouselContainer from "./CarouselContainer";
 
@@ -11,13 +12,14 @@ function Home() {
         src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonMusic/2021/Marketing/EvergreenQ1/Gateway/US-EN_AMF_EvergreenQ1_DMUX-3799_JZ_OnS_GW_Hero_D_3000x1200_2X_CV4._CB411870756_.jpg"
         alt="amazon home banner"
       /> */}
+      <SecondNav />
       <div className="home_image">
-
-      <CarouselContainer/>
+        <CarouselContainer />
       </div>
 
       {/* product id, title, price, rating, image */}
       {/* product */}
+
       <div className="home_row">
         <Product
           id="12345"
