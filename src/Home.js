@@ -1,7 +1,6 @@
 import React from "react";
 import Product from "./Product";
 import "./Home.css";
-import Carousel from './CarouselContainer';
 import CarouselContainer from "./CarouselContainer";
 
 function Home() {
@@ -12,7 +11,10 @@ function Home() {
         src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonMusic/2021/Marketing/EvergreenQ1/Gateway/US-EN_AMF_EvergreenQ1_DMUX-3799_JZ_OnS_GW_Hero_D_3000x1200_2X_CV4._CB411870756_.jpg"
         alt="amazon home banner"
       /> */}
+      <div className="home_image">
+
       <CarouselContainer/>
+      </div>
 
       {/* product id, title, price, rating, image */}
       {/* product */}
