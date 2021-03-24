@@ -16,6 +16,9 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 18px;
+    margin-bottom: 10px;
+
+    /* margin:18px,20px,10px,20px; */
 }
 .header_nav{
     display: flex;
@@ -55,15 +58,28 @@
 
 /* padding allows the text in the search bar to be in the center */
 .header_searchInput{
-    height: 12px;
+    height: 40px;
     padding: 10px;
     border:none;
     width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
 }
 .header_searchIcon{
     padding: 5px;
-    height: 22px !important;
+    height: 40px !important;
     background-color: orange;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
+.SelectAddress{
+    padding: 0 9px 0 9px;
+    margin: 5px 2px 5px 0;
+    color:white;
+}
 
+.LocationOn{
+color:white;
+}

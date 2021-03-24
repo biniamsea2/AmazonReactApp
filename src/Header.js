@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingCart from "@material-ui/icons/ShoppingCart";
+import LocationOn from "@material-ui/icons/LocationOn";
 import { useStateValue } from "./StateProvider";
-import Login from "./Login";
 import { auth } from "./Firebase";
 
 function Header() {
@@ -28,6 +28,13 @@ function Header() {
           src="https://d24wuq6o951i2g.cloudfront.net/img/events/id/457/457529896/assets/b71.amazon_logo_RGB_REV.png"
           alt="amazon logo"
         />
+      </Link>
+      <LocationOn className="LocationOn" />
+      <Link to="/login" className="SelectAddress">
+        <div className="header_option">
+          <span className="header_optionLineOne">Hello</span>
+          <span className="header_optionLineTwo">Select your Address</span>
+        </div>
       </Link>
 
       {/* search box */}
@@ -70,6 +77,8 @@ function Header() {
           </span>
         </div>
       </Link>
+
+      
     </nav>
   );
 }
