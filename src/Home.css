@@ -7,7 +7,8 @@
 .home_image{
     width: 100%;
     /* this line allows us to shade in the banner from bottom to top or vice versa */
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    /* 50% fixes the white shading only going 50% the length, which is what i needed */
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50% , rgba(0,0,0,0));
     z-index:1;
     margin-bottom: -150px;
 }
