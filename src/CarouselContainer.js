@@ -6,6 +6,7 @@ import image3 from "./HomePageImages/3.jpg";
 import image4 from "./HomePageImages/4.jpg";
 import image5 from "./HomePageImages/5.jpg";
 import image6 from "./HomePageImages/6.jpg";
+import image7 from "./HomePageImages/7.jpg";
 
 const CarouselContainer = () => {
   return (
@@ -27,6 +28,9 @@ const CarouselContainer = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100" src={image6} alt="Sixth slide" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={image7} alt="Seventh slide" />
       </Carousel.Item>
     </Carousel>
   );

@@ -31,6 +31,8 @@
     /* keeps aspect ratio */
     object-fit: contain;
     margin-bottom: 15px;
+    margin-top: 15px;
+
 }
 
 .product > button{

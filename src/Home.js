@@ -49,14 +49,14 @@ function Home() {
           title="Nintendo Switch with Neon Blue and Neon Red Joy‑Con - HAC-001(-01)"
           price={299.0}
           rating={5}
-          image="https://images-na.ssl-images-amazon.com/images/I/61-PblYntsL._AC_SX679_.jpg"
+          image="https://i.guim.co.uk/img/media/e025e667d7b8f6ec39d33b4ae2dc4b51dcd6c5a9/241_189_2132_1279/master/2132.jpg?width=1200&quality=85&auto=format&fit=max&s=56db43279de89bb01c791db0de5bc5b1"
         />
         <Product
           id="90123"
           title="Blink Mini – Compact indoor plug-in smart security camera, 1080 HD video, night vision, motion detection, two-way audio, Works with Alexa – 2 cameras"
           price={64.99}
-          rating={5}
-          image="https://images-na.ssl-images-amazon.com/images/I/61LrV6Id5gL._SX522_.jpg"
+          rating={5} 
+          image="https://images-na.ssl-images-amazon.com/images/I/61LrV6Id5gL._SY355_.jpg"
         />
       </div>
       <div className="home_row">
