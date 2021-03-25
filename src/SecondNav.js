@@ -10,7 +10,7 @@ const SecondNav = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <NavDropdown title="All" id="basic-nav-dropdown">
-            <p><b>Trending</b></p>
+            <p className="categories">Trending</p>
             <NavDropdown.Item href="#action/3.1">
               Best Sellers{" "}
               <ArrowForwardIos className="ArrowForwardIos" fontSize="small" />
@@ -24,7 +24,7 @@ const SecondNav = () => {
               <ArrowForwardIos className="ArrowForwardIos" fontSize="small" />
             </NavDropdown.Item>
             <NavDropdown.Divider />
-            <p><b>Digital Content & Devices</b></p>
+            <p className="categories">Digital Content & Devices</p>
             <NavDropdown.Item href="#action/3.2">
               Prime Video{" "}
               <ArrowForwardIos className="ArrowForwardIos" fontSize="small" />
@@ -52,6 +52,23 @@ const SecondNav = () => {
             <NavDropdown.Item href="#action/3.2">
               Appstore for Android <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
+            <NavDropdown.Divider />
+            <p className="categories">Shop By Department</p>
+            <NavDropdown.Item href="#action/3.2">
+            Clothing, Shoes, Jewelry & Watches <ArrowForwardIos fontSize="small" />
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+            Amazon Fresh <ArrowForwardIos fontSize="small" />
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+            Books <ArrowForwardIos fontSize="small" />
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+            Movies, Music & Games <ArrowForwardIos fontSize="small" />
+            </NavDropdown.Item>
+
+
+
 
 
 
