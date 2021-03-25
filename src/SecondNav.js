@@ -55,17 +55,17 @@ const SecondNav = () => {
             </NavDropdown.Item>
             <NavDropdown.Divider />
             <p className="categories">Shop By Department</p>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/primewardrobe?ref_=nav_em_tbyb_site_directory_tbyb_l0_0_2_10_11">
               Clothing, Shoes, Jewelry & Watches{" "}
               <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/alm/storefront?almBrandId=QW1hem9uIEZyZXNo&ref_=nav_em__afs_aaf_0_2_11_2">
               Amazon Fresh <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/gp/browse.html?node=283155&ref_=nav_em__bo_t3_0_2_12_2">
               Books <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/gp/browse.html?node=2625373011&ref_=nav_em__mov_0_2_13_2">
               Movies, Music & Games <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
             <NavDropdown.Divider />
