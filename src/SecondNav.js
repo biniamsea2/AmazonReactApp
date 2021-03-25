@@ -12,45 +12,45 @@ const SecondNav = () => {
         <Nav className="mr-auto">
           <NavDropdown title="All" id="basic-nav-dropdown">
             <p className="categories">Trending</p>
-            <NavDropdown.Item href="#action/3.1">
+            <NavDropdown.Item href="https://www.amazon.com/gp/bestsellers/?ref_=nav_em_cs_bestsellers_0_1_1_2">
               Best Sellers{" "}
               <ArrowForwardIos className="ArrowForwardIos" fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/gp/new-releases/?ref_=nav_em_cs_newreleases_0_1_1_3">
               New Releases{" "}
               <ArrowForwardIos className="ArrowForwardIos" fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/gp/movers-and-shakers/?ref_=nav_em_ms_0_1_1_4">
               Movers & Shakers{" "}
               <ArrowForwardIos className="ArrowForwardIos" fontSize="small" />
             </NavDropdown.Item>
             <NavDropdown.Divider />
             <p className="categories">Digital Content & Devices</p>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/Amazon-Video/b?node=2858778011&ref_=nav_em__aiv_0_2_2_2">
               Prime Video{" "}
               <ArrowForwardIos className="ArrowForwardIos" fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/gp/dmusic/promotions/AmazonMusicUnlimited?ref_=nav_em__dm_hf_0_2_3_2">
               Amazon Music{" "}
               <ArrowForwardIos className="ArrowForwardIos" fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/gp/browse.html?node=9818047011&ref_=nav_em__ods_ha_echo_cp_0_2_4_13">
               Echo & Alexa{" "}
               <ArrowForwardIos className="ArrowForwardIos" fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/gp/browse.html?node=6669703011&ref_=nav_em__ods_tab_catp_0_2_5_10">
               Fire Tablets <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/dp/B08C1W5N87?ref_=nav_em__ods_smp_sld_nav_0_2_6_3">
               Fire Tv <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/gp/browse.html?node=6669702011&ref_=nav_em__ods_eink_catp_0_2_7_7">
               Kindle E-readers & Books <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/hz/audible/mlp?ref_=nav_em_aud_mem_dct1_0_2_8_2">
               Audible Books & Originals <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/gp/browse.html?node=2350149011&ref_=nav_em__adr_app_0_2_9_2">
               Appstore for Android <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
             <NavDropdown.Divider />
