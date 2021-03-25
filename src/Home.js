@@ -53,10 +53,10 @@ function Home() {
         />
         <Product
           id="90123"
-          title="Blink Mini – Compact indoor plug-in smart security camera, 1080 HD video, night vision, motion detection, two-way audio, Works with Alexa – 2 cameras"
-          price={64.99}
-          rating={5} 
-          image="https://images-na.ssl-images-amazon.com/images/I/61LrV6Id5gL._SY355_.jpg"
+          title="Ring Video Doorbell 3 Plus with Echo Show 5 (Charcoal)"
+          price={189.99}
+          rating={4} 
+          image="https://images-na.ssl-images-amazon.com/images/I/51HiwVqjVDL._SX522_.jpg"
         />
       </div>
       <div className="home_row">
