@@ -55,7 +55,7 @@ function Home() {
           id="90123"
           title="Ring Video Doorbell 3 Plus with Echo Show 5 (Charcoal)"
           price={189.99}
-          rating={4} 
+          rating={4}
           image="https://images-na.ssl-images-amazon.com/images/I/51HiwVqjVDL._SX522_.jpg"
         />
       </div>
