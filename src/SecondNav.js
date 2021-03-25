@@ -178,7 +178,7 @@ const SecondNav = () => {
             Find Gifts
           </Nav.Link>
           <Nav.Link
-            id="basic-nav-dropdown"
+            id="shopEaster"
             href="https://www.amazon.com/gcx/Easter-Gift-Shop/gfhz/events/?_encoding=UTF8&categoryId=easter-store&ref_=nav_swm_EASTER21_SWM1&pf_rd_p=435796e1-a89f-4517-9155-ad86f8bb77be&pf_rd_s=nav-sitewide-msg-text&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=G1XEQXMEN65NB247DF33"
           >
             Shop Easter
