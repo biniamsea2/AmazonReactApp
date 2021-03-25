@@ -2,6 +2,7 @@ import React from "react";
 import "./SecondNav.css";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import ArrowForwardIos from "@material-ui/icons/ArrowForwardIos";
+import LanguageIcon from "@material-ui/icons/Language";
 
 const SecondNav = () => {
   return (
@@ -55,31 +56,50 @@ const SecondNav = () => {
             <NavDropdown.Divider />
             <p className="categories">Shop By Department</p>
             <NavDropdown.Item href="#action/3.2">
-            Clothing, Shoes, Jewelry & Watches <ArrowForwardIos fontSize="small" />
+              Clothing, Shoes, Jewelry & Watches{" "}
+              <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
-            Amazon Fresh <ArrowForwardIos fontSize="small" />
+              Amazon Fresh <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
-            Books <ArrowForwardIos fontSize="small" />
+              Books <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
-            Movies, Music & Games <ArrowForwardIos fontSize="small" />
+              Movies, Music & Games <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <NavDropdown.Divider />
+            <p className="categories">Programs & Features</p>
+            <NavDropdown.Item href="#action/3.2">
+              Whole Foods Market <ArrowForwardIos fontSize="small" />
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+              Amazon Pharmacy <ArrowForwardIos fontSize="small" />
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+              Amazon Physical Stores
+              <ArrowForwardIos fontSize="small" />
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+              Subscribe & Save <ArrowForwardIos fontSize="small" />
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+              Full Store Directory <ArrowForwardIos fontSize="small" />
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+            <p className="categories">Help & Settings</p>
+            <NavDropdown.Item href="#action/3.2">Your Account</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+              <LanguageIcon id="LanguageIcon" fontSize="small" />
+              English
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+              🌎 United States
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+              Customer Service
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">Sign In</NavDropdown.Item>
           </NavDropdown>
 
           <Nav.Link
@@ -96,29 +116,19 @@ const SecondNav = () => {
           </Nav.Link>
 
           <NavDropdown title="Prime" id="basic-nav-dropdown">
-            <NavDropdown.Item
-              href="https://www.amazon.com/amazonprime?ref=acq_slash_prime&ms3_c=f8050ccde7dc8667cd42d4d30c082601"
-            >
+            <NavDropdown.Item href="https://www.amazon.com/amazonprime?ref=acq_slash_prime&ms3_c=f8050ccde7dc8667cd42d4d30c082601">
               Prime
             </NavDropdown.Item>
-            <NavDropdown.Item
-              href="https://www.amazon.com/b?node=15247183011&ref=acq_slash_prime&ms3_c=de1a873798b2a3dedb5d0ecce8baeed6"
-            >
+            <NavDropdown.Item href="https://www.amazon.com/b?node=15247183011&ref=acq_slash_prime&ms3_c=de1a873798b2a3dedb5d0ecce8baeed6">
               Delivery
             </NavDropdown.Item>
-            <NavDropdown.Item
-              href="https://www.amazon.com/b?ie=UTF8&node=16205654011&ref=acq_slash_prime&ms3_c=757416cd91e351157d5945c4e962d153"
-            >
+            <NavDropdown.Item href="https://www.amazon.com/b?ie=UTF8&node=16205654011&ref=acq_slash_prime&ms3_c=757416cd91e351157d5945c4e962d153">
               Exclusive Deals
             </NavDropdown.Item>
-            <NavDropdown.Item
-              href="https://www.amazon.com/primeinsider?ref=acq_slash_prime&ms3_c=757416cd91e351157d5945c4e962d153"
-            >
+            <NavDropdown.Item href="https://www.amazon.com/primeinsider?ref=acq_slash_prime&ms3_c=757416cd91e351157d5945c4e962d153">
               Prime In
             </NavDropdown.Item>
-            <NavDropdown.Item
-              href="https://www.amazon.com/gp/help/customer/display.html?ref=acq_slash_prime&ms3_c=757416cd91e351157d5945c4e962d153"
-            >
+            <NavDropdown.Item href="https://www.amazon.com/gp/help/customer/display.html?ref=acq_slash_prime&ms3_c=757416cd91e351157d5945c4e962d153">
               Get Help
             </NavDropdown.Item>
           </NavDropdown>
