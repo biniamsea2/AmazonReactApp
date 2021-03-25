@@ -12,13 +12,13 @@ function Checkout() {
       <div className="checkout_left">
         <img
           className="checkout_ad"
-          src="https://images-na.ssl-images-amazon.com/images/G/01/credit/img16/CCMP/newstorefront/YACC-desktop-nonprime-banner3.png"
+          src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"
           alt="ad"
         />
         {/* https://images-na.ssl-images-amazon.com/images/G/01/credit/img18/CBCC/wfm/landing-hero-prime-overlap2.jpg */}
         {basket?.length === 0 ? (
           <div>
-            <h2>Your Shopping Basket is Empty</h2>
+            <h2>Your Amazon Cart is empty</h2>
             <p>
               You have no items in your basket. To buy one or more items, click
               "Add to basket" underneath the item.

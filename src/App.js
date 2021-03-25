@@ -7,6 +7,7 @@ import Checkout from './Checkout';
 import Login from "./Login";
 import {useStateValue} from "./StateProvider";
 import {auth} from "./Firebase";
+import SecondNav from "./SecondNav";
 
 function App() { 
   //used for the listener
@@ -49,6 +50,7 @@ console.log("user is ===>>>", user);
         <Switch>
           <Route path="/checkout">
             <Header/>
+            <SecondNav/>
             <Checkout/>
           </Route>
           <Route path="/login">
