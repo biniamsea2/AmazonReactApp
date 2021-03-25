@@ -70,36 +70,36 @@ const SecondNav = () => {
             </NavDropdown.Item>
             <NavDropdown.Divider />
             <p className="categories">Programs & Features</p>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/alm/storefront?almBrandId=VUZHIFdob2xlIEZvb2Rz&ref_=nav_em_navm_whole_foods_storefront_0_2_26_2">
               Whole Foods Market <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://pharmacy.amazon.com/?ref_=nav_em_pharmacy_0_1_1_33">
               Amazon Pharmacy <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/gp/browse.html?node=17608448011&ref_=nav_em_AMZSTRS_SD_Desktop_0_2_27_5">
               Amazon Physical Stores
               <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/gp/browse.html?node=5856181011&ref_=nav_em_sns_hamburger_0_1_1_35">
               Subscribe & Save <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/gp/site-directory?ref_=nav_em__fullstore_0_1_1_51">
               Full Store Directory <ArrowForwardIos fontSize="small" />
             </NavDropdown.Item>
             <NavDropdown.Divider />
             <p className="categories">Help & Settings</p>
-            <NavDropdown.Item href="#action/3.2">Your Account</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="/login">Your Account</NavDropdown.Item>
+            <NavDropdown.Item href="https://www.amazon.com/gp/customer-preferences/select-language/?preferencesReturnUrl=%2F&ref_=nav_em_mozart_0_1_1_54">
               <LanguageIcon id="LanguageIcon" fontSize="small" />
               English
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/gp/navigation-country/select-country/?ref_=nav_em_locale_0_1_1_55">
               🌎 United States
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
+            <NavDropdown.Item href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_em_cs_hm_0_1_1_56">
               Customer Service
             </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Sign In</NavDropdown.Item>
+            <NavDropdown.Item href="/login">Sign In</NavDropdown.Item>
           </NavDropdown>
 
           <Nav.Link
