@@ -44,6 +44,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 - React.js
 - Firebase for hosting, database, and authentication 
 - Material UI 
+- Flexbox
 - Github
 - Ubuntu
 
