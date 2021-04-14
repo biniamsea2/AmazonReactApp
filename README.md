@@ -3,7 +3,7 @@
 Deployed Link [Here](https://reactapp-4898a.web.app/).
 
 ### Project Summary
-
+This Amazon application was created using Visual Studio Code and React.js. My primary purpose for building this application was to try and replicate Amazon.com as much as possible, while becoming more familiar with React.js. In order to successfully build this application I followed numerous tutorials which helped me build a stronger React.js foundation. 
 
 ### Learning Objectives:
 - Setting up a React App infrastructure
