@@ -2,6 +2,19 @@
 
 Deployed Link [Here](https://reactapp-4898a.web.app/).
 
+### Project Summary
+
+
+### Learning Objectives:
+Setting up a React App infrastructure
+Create a Firebase project for hosting
+Implementing React Context Api
+Include React Router Dom
+Follow industry standard styling 
+Implementing Authentication through Firebase
+Become familiar with React Currency Format 
+Introduction to Material UI
+
 ## Available Scripts
 
 In the project directory, you can run:
