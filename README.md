@@ -10,6 +10,7 @@ This Amazon application was created using Visual Studio Code and React.js. My pr
 - Create a Firebase project for hosting
 - Implementing React Context Api
 - Include React Router Dom
+- Implement meaningful documentation to better assist on updates.
 - Follow industry standards for styling 
 - Implementing Authentication through Firebase
 - Become familiar with React Currency Format 
