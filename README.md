@@ -10,7 +10,7 @@ Deployed Link [Here](https://reactapp-4898a.web.app/).
 - Create a Firebase project for hosting
 - Implementing React Context Api
 - Include React Router Dom
-- Follow industry standard styling 
+- Follow industry standards for styling 
 - Implementing Authentication through Firebase
 - Become familiar with React Currency Format 
 - Introduction to Material UI
